@@ -4,8 +4,8 @@ This project implements a simple One-Time Pad (OTP) data encryption and decrypti
 
 #### How It Works
 Stream ciphers encrypt data bit-by-bit or byte-by-byte using a randomly generated keystream.  
-It does this by XORing the plaintext with a truly random key, 
----
+It does this by XORing the plaintext with the randomly generated key.
+
 
 ### Usage
 
