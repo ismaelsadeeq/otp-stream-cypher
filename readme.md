@@ -5,23 +5,6 @@ This project implements a simple One-Time Pad (OTP) data encryption and decrypti
 #### How It Works
 Stream ciphers encrypt data bit-by-bit or byte-by-byte using a randomly generated keystream.  
 It does this by XORing the plaintext with a truly random key, 
-
-It provides perfect secrecy as long as:
-1. The key is truly random.
-2. The key is as long as the message.
-3. The key is never reused.
-
-##### Example XOR Encryption
-```c++
-Key:      10010100
-Message:  01011010
-Ciphertext:
-       10010100
-XOR    01011010
-----------------
-       11001110
-```
-
 ---
 
 ### Usage
@@ -29,7 +12,7 @@ XOR    01011010
 1. Installation
 
     ```sh
-    git clone https://github.com/your-repo/otp-stream-cipher
+    git clone https://github.com/ismaelsadeeq/otp-stream-cipher
     cd otp-stream-cipher
     git clone https://github.com/ismaelsadeeq/crypto-utils
     ```
